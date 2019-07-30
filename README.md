@@ -48,6 +48,16 @@ for s in structures:
 
 Enjoy!
 
+## Tips & tricks
+
+ 1. There are powerful filter methods available in Overview => Filters => Topology
+    (e.g. remove all but the largest one by selecting "Giant component")
+ 1. The apparent brightness of node edges can be affected by resolution of the PNG export
+    (e.g. a finer resolution might, correctly, render the edges as thinner). 
+    In this case, you can play with the edge thickness to counteract this.
+ 1. Removing unexpected rectangles: With the default merge policy "sum", the weight of some
+    edges can grow very large. In the Data Laboratory, click on "Edges" and sort by "Weight" to edit.
+
 ## Examples
 ![example graph](figure.png)
 
